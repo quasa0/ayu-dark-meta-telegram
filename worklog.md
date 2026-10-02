@@ -1,5 +1,12 @@
 # Worklog
 
+## 2026-10-02 — Public repository and downloads verified
+
+- Created https://github.com/quasa0/ayu-dark-meta-telegram as PUBLIC and pushed source commit 5e75707911e776dfc5aa25683b0c499cd639c45e to default branch quasa0/main.
+- Anonymous downloads of the README, checksums, Desktop theme/palette/wallpaper and both Web files matched the local bytes. The README's direct theme-download link works; the downloaded archive passes ZIP/member validation.
+- The upstream palette has four original trailing spaces. Added a file-specific Git whitespace attribute so diff checks preserve that pinned source byte-for-byte. Project-authored files remain subject to normal whitespace checks.
+- Extended the generator to write SHA256SUMS. Repeated generation is byte-identical for all four generated artifacts; each checksum matches its file. No personal settings, backups, screenshots, iOS build or background process published.
+
 ## 2026-10-02 — Standalone public Telegram theme repository
 
 - Prepared the Desktop theme archive, readable 467-entry palette, solid navy PNG, optional CSS-only Web extension, dependency-free generator, source provenance/audit inventory, and installation/restore guide. The public source matches the installed Desktop theme's color entries.

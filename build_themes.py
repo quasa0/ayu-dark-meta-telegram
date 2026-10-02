@@ -3,6 +3,7 @@
 """Build the declarative Telegram theme. Python standard library only."""
 from pathlib import Path
 import colorsys
+import hashlib
 import re
 import struct
 import zipfile
@@ -150,4 +151,10 @@ with zipfile.ZipFile(ROOT / 'Ayu Dark Meta.tdesktop-theme', 'w') as bundle:
         entry.compress_type = zipfile.ZIP_DEFLATED
         bundle.writestr(entry, data)
 
-print(f'Generated {len(palette)} Telegram colors and the theme bundle.')
+artifacts = ['Ayu Dark Meta.tdesktop-theme', 'Ayu Dark Meta.tdesktop-palette',
+             'Ayu Dark Meta background.png']
+(ROOT / 'SHA256SUMS').write_text(''.join(
+    f'{hashlib.sha256((ROOT / name).read_bytes()).hexdigest()}  {name}\n'
+    for name in artifacts
+))
+print(f'Generated {len(palette)} Telegram colors, the theme bundle, and checksums.')

@@ -1,0 +1,2 @@
+# Preserve the pinned upstream palette byte-for-byte, including whitespace.
+source/telegram-night-base.tdesktop-palette -whitespace

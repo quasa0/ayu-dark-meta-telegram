@@ -1,0 +1,82 @@
+/* SPDX-License-Identifier: GPL-3.0-or-later; Copyright (C) 2026 quasa0 */
+/* Ayu Dark Meta. CSS only. Scope: https://web.telegram.org/ */
+html, html.night, html body, html .night, html .theme-dark {
+  color-scheme: dark;
+  --primary-color: #e6b450 !important;
+  --primary-color-rgb: 230, 180, 80 !important;
+  --light-primary-color: rgba(230,180,80,.10) !important;
+  --light-filled-primary-color: #292d36 !important;
+  --dark-primary-color: #d5a33f !important;
+  --saved-color: #e6b450 !important;
+  --light-filled-saved-color: #ffb454 !important;
+  --surface-color: #0a0e14 !important;
+  --surface-color-rgb: 10, 14, 20 !important;
+  --background-color: #0a0e14 !important;
+  --background-color-rgb: 10, 14, 20 !important;
+  --body-background-color: #0a0e14 !important;
+  --body-background-color-rgb: 10, 14, 20 !important;
+  --primary-text-color: #b3b1ad !important;
+  --primary-text-color-rgb: 179, 177, 173 !important;
+  --secondary-text-color: #8a939e !important;
+  --secondary-text-color-rgb: 138, 147, 158 !important;
+  --secondary-color: #626a73 !important;
+  --light-secondary-text-color: rgba(138,147,158,.10) !important;
+  --light-filled-secondary-text-color: #161f2a !important;
+  --border-color: #292d36 !important;
+  --link-color: #e6b450 !important;
+  --input-search-background-color: #0d1016 !important;
+  --old-input-background-color: #0d1016 !important;
+  --input-placeholder-color: #8a939e !important;
+  --input-message-placeholder-color: #8a939e !important;
+  --message-background-color: #0d1016 !important;
+  --light-message-background-color: rgba(13,16,22,.12) !important;
+  --light-filled-message-background-color: #0d1016 !important;
+  --dark-message-background-color: #01060e !important;
+  --message-out-background-color: #161f2a !important;
+  --message-out-background-color-rgb: 22, 31, 42 !important;
+  --light-message-out-background-color: #161f2a !important;
+  --light-filled-message-out-background-color: #161f2a !important;
+  --dark-message-out-background-color: #121922 !important;
+  --message-out-primary-color: #e6b450 !important;
+  --message-out-primary-color-rgb: 230, 180, 80 !important;
+  --light-filled-message-out-primary-color: #292d36 !important;
+  --message-highlighting-color: rgba(230,180,80,.15) !important;
+  --message-highlighting-color-rgb: 230, 180, 80 !important;
+  --message-highlighting-alpha: .15 !important;
+  --selection-background-color: #292d36 !important;
+  --menu-background-color: rgba(13,16,22,.97) !important;
+  --chatlist-status-color: #e6b450 !important;
+  --chatlist-pinned-color: #626a73 !important;
+  --avatar-online-color: #c2d94c !important;
+  --green-color: #c2d94c !important;
+  --green-color-rgb: 194, 217, 76 !important;
+  --danger-color: #f07178 !important;
+  --danger-color-rgb: 240, 113, 120 !important;
+  --warning-color: #ffb454 !important;
+  --premium-color: #c594c5 !important;
+  --skeleton-color: #292d36 !important;
+  --original-ripple-color: rgba(179,177,173,.08) !important;
+  --color-background: #0a0e14 !important;
+  --color-background-secondary: #0d1016 !important;
+  --color-background-secondary-accent: #161f2a !important;
+  --color-background-own: #161f2a !important;
+  --color-background-selected: #292d36 !important;
+  --color-text: #b3b1ad !important;
+  --color-text-secondary: #8a939e !important;
+  --color-primary: #e6b450 !important;
+  --color-primary-shade: #d5a33f !important;
+  --color-links: #e6b450 !important;
+  --color-borders: #292d36 !important;
+}
+html body { background: #0a0e14 !important; color: #b3b1ad !important; }
+/* Suppress colorful wallpaper layers so the chat matches the editor canvas. */
+.chat-background, .chat-background-container, .chat-background-item,
+#MiddleColumn .ChatBackground { background: #0a0e14 !important; background-image: none !important; }
+.chat-background canvas, .chat-background img, .chat-background-container canvas,
+.chat-background-item canvas, .chat-background-item img { visibility: hidden !important; }
+body > div > [class*="_Layer_"] { background: #0a0e14 !important; }
+body > div > [class*="_Layer_"] canvas { visibility: hidden !important; }
+/* Gold filled controls need navy text; chat text stays warm gray. */
+.btn-primary, .btn-color-primary, .Button.primary { color: #0a0e14 !important; }
+.bubbles .bubble-content .message, .Message .text-content { color: #b3b1ad !important; }
+code, pre { color: #95e6cb; }

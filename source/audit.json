@@ -1,0 +1,34 @@
+{
+  "extension": "allmeta.ayu-dark-meta",
+  "version": "0.0.1",
+  "sha256": "c26114dfb49512f8ba1f39bbcbb35a092449134b7e72655912e5f0adfcc9bc2d",
+  "files": [
+    {
+      "path": "extension.vsixmanifest",
+      "bytes": 1926,
+      "sha256": "3cc8af2a349d5bf60f44a8a6067b2dd3bc6a283edd1230735098484ac0dd8b93"
+    },
+    {
+      "path": "[Content_Types].xml",
+      "bytes": 299,
+      "sha256": "437ce2366d2294798d9cc66f63f7d63b2c73178d183c875d9ea21e1c0ff14079"
+    },
+    {
+      "path": "extension/CHANGELOG.md",
+      "bytes": 239,
+      "sha256": "3bc648d644ad9bb6f8e4470ce2eda312239034c68a03bd5fac3b3a8003011270"
+    },
+    {
+      "path": "extension/package.json",
+      "bytes": 727,
+      "sha256": "0024b31812b4c6675a2e4a6fe12f1da5fda11fd012725f2da943adde718410d0"
+    },
+    {
+      "path": "extension/themes/Ayu Dark Meta-color-theme.json",
+      "bytes": 17016,
+      "sha256": "02c4b795eadebebef4337ba3e30f8af6453610a89a730ddf464e8bda02c5e385"
+    }
+  ],
+  "executableEntryPoints": [],
+  "runtimeDependencies": []
+}

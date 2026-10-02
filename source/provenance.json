@@ -1,0 +1,19 @@
+{
+  "telegramDesktopBaseline": {
+    "repository": "https://github.com/telegramdesktop/tdesktop",
+    "commit": "837b256778dbc6824957af345941d6ac183f07e0",
+    "path": "Telegram/Resources/night.tdesktop-theme",
+    "member": "colors.tdesktop-theme",
+    "localPath": "source/telegram-night-base.tdesktop-palette",
+    "sha256": "9f6e0cdf85cad2e9baa33885e7bb102d5f63f06039c920908d3fb29fc50cbd8d",
+    "license": "GPL-3.0-or-later; see licenses/telegram-desktop-LICENSE for upstream terms"
+  },
+  "paletteReference": {
+    "repository": "https://github.com/allmeta/Ayu-Dark-Meta",
+    "marketplace": "https://marketplace.visualstudio.com/items?itemName=allmeta.ayu-dark-meta",
+    "version": "0.0.1",
+    "sha256": "c26114dfb49512f8ba1f39bbcbb35a092449134b7e72655912e5f0adfcc9bc2d",
+    "redistributed": false,
+    "note": "The original VS Code JSON and extension package are not included. The Telegram adaptation uses the navy, warm gray, gold and companion color values as its visual reference."
+  }
+}

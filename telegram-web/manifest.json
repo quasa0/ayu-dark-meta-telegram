@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Ayu Dark Meta — Telegram colors",
+  "version": "1.0.0",
+  "description": "Local, CSS-only Ayu Dark Meta colors for Telegram Web. No JavaScript, background process, analytics, or network requests.",
+  "content_scripts": [
+    {
+      "matches": ["https://web.telegram.org/*"],
+      "css": ["ayu.css"],
+      "run_at": "document_start"
+    }
+  ]
+}

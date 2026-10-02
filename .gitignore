@@ -1,0 +1,15 @@
+# Local artifacts and private appearance snapshots
+.DS_Store
+__pycache__/
+*.py[cod]
+backups/
+*.before.*
+*.jsonc
+*-preview.png
+*.vsix
+vscode-settings.json
+vscode-appearance-block.txt
+restore-vscode.py
+source/Ayu Dark Meta-color-theme.json
+source/repository-theme.json
+source/package.json

@@ -1,0 +1,21 @@
+Ayu Dark Meta for Telegram
+Copyright (C) 2026 quasa0
+SPDX-License-Identifier: GPL-3.0-or-later
+
+The Telegram Desktop baseline in source/telegram-night-base.tdesktop-palette
+is an unmodified extraction of colors.tdesktop-theme from:
+https://github.com/telegramdesktop/tdesktop/blob/837b256778dbc6824957af345941d6ac183f07e0/Telegram/Resources/night.tdesktop-theme
+
+Copyright belongs to Telegram Desktop contributors. The upstream GPL license
+and its additional OpenSSL linking exception are preserved in
+licenses/telegram-desktop-LICENSE. The generated palette changes its color
+values and adds theme attribution. The baseline remains available as source.
+
+The visual palette refers to allmeta/Ayu-Dark-Meta version 0.0.1:
+https://github.com/allmeta/Ayu-Dark-Meta
+The original VS Code theme JSON and VSIX are not redistributed. No license
+was stated in that source repository when inspected on 2026-10-02.
+
+The audit inventory contains factual filenames, sizes, and SHA-256 hashes.
+Telegram and Ayu names identify the app and palette reference. This project
+is independent and does not imply affiliation or endorsement.
